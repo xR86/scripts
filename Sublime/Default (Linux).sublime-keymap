@@ -1,0 +1,9 @@
+[
+	{ "keys": ["ctrl+alt+shift+up"], "command": "select_lines", "args": {"forward": false} },
+	{ "keys": ["ctrl+alt+shift+down"], "command": "select_lines", "args": {"forward": true} },
+	
+	{ "keys": ["ctrl+shift+1"], "command": "schemr_cycle_schemes", "args": {"direction": "prev"}},
+	{ "keys": ["ctrl+shift+2"], "command": "schemr_cycle_schemes", "args": {"direction": "next"}},
+	{ "keys": ["ctrl+shift+3"], "command": "themr_cycle_themes", "args": {"direction": "prev"}},
+    { "keys": ["ctrl+shift+4"], "command": "themr_cycle_themes", "args": {"direction": "next"}},
+]
