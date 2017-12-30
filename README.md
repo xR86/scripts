@@ -5,12 +5,13 @@ various utility scripts
 > Some scripts I use for different scenarios.
 
 Basic structure is:
-+ `os-specific` folders: `Linux` / `Windows`
-+ other folders for `tools that are on both`: `Sublime` etc.
++ `general python tools` (work on both): **`general/`**
++ `os-specific` folders: **`Linux/`** / **`Windows/`**
++ other folders for `scripts for tools` (work on both): **`Sublime/`** etc.
   
   
 **Features**:
- - Linux utility scripts
- - Windows utility scripts
- - Node.js scripts for Windows
- - Java scripts for Linux
+ - linux `docker` scripts
+ - `Windows networking` utility scripts
+ - `Node.js` dev scripts for Linux (gnome-terminal) / Windows (cmd.exe)
+ - `flask` makefiles / dev scripts
