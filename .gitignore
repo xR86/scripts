@@ -1,6 +1,10 @@
 
-#Ignore experimental scripts
+# Ignore experimental scripts
 experimental/*
 
 Linux/resize2fs.md
 Windows/Vagrant
+
+
+# Ignore
+__pycache__/
