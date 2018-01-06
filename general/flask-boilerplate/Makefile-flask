@@ -1,0 +1,6 @@
+export FLASK_APP=flask_controller.py
+
+all: run
+
+run:
+	python3 -m flask run
