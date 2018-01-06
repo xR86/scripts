@@ -13,7 +13,7 @@ app = Flask(__name__)
 
 @app.route('/')
 def hello_world():
-	name = 'Flask app'
+	name = 'Flask boilerplate app'
 	return render_template('mdl_index.html', name=name)
 
 
@@ -26,8 +26,8 @@ def calculate_add_get_wrapper():
 @app.route('/api/add', methods=['POST'])
 def calculate_add_post_wrapper():
 	print(request.get_json()) #force=True
-	a = request.get_json()["a"]
-	b = request.get_json()["b"]
+	a = int(request.get_json()["a"])
+	b = int(request.get_json()["b"])
 
 	temp = a + b
 	
