@@ -1,8 +1,3 @@
-'''
-Run with:
-make -f Makefile-flask
-'''
-
 #import tema as tm
 #from . import tema as tm
 
