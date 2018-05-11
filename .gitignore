@@ -2,7 +2,7 @@
 # Ignore experimental scripts
 experimental/*
 
-Linux/resize2fs.md
+Windows/resize2fs.md
 Windows/Vagrant
 
 
